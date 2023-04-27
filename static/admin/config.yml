@@ -1,9 +1,9 @@
 backend:
   name: github
   repo: quillandhoof/quillandhoof.github.io
+  site_id: https://quillandhoof.netlify.app
 media_folder: static/img
 public_folder: /img
-site_url: https://quillandhoof.netlify.app
 collections:
   - name: 'blog'
     label: 'Blog'
