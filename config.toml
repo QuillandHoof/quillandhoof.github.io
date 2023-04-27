@@ -1,0 +1,28 @@
+baseURL = 'https://quillandhoof.github.io/'
+languageCode = 'en-us'
+title = 'Quill and Hoof'
+[[module.imports]]
+path = "github.com/willfaught/paige"
+
+[languages.en]
+weight = 10
+
+[[languages.en.menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 10
+
+[[languages.en.menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/blog/"
+weight = 20
+
+[[languages.en.menu.main]]
+identifier = "resume"
+name = "Resume"
+url = "/resume/"
+weight = 30
+
+paginate = 50
