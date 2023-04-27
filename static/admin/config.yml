@@ -3,6 +3,7 @@ backend:
   repo: quillandhoof/quillandhoof.github.io
 media_folder: static/img
 public_folder: /img
+site_url: https://quillandhoof.netlify.app
 collections:
   - name: 'blog'
     label: 'Blog'
